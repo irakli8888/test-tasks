@@ -1,0 +1,22 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+
+    <include file="20-insert-author-table.xml" relativeToChangelogFile="true"/>
+    <include file="10-insert-book-table.xml" relativeToChangelogFile="true"/>
+    <include file="50-insert-person-table.xml" relativeToChangelogFile="true"/>
+    <include file="30-insert-genre-table.xml" relativeToChangelogFile="true"/>
+    <include file="40-insert-library-card-table.xml" relativeToChangelogFile="true"/>
+    <include file="60-insert-book-genre-ink-table.xml" relativeToChangelogFile="true"/>
+    <include file="60-insert-book-genre-ink-table.xml" relativeToChangelogFile="true"/>
+    <include file="80-insert-user-table.xml" relativeToChangelogFile="true"/>
+
+
+
+
+
+
+</databaseChangeLog>

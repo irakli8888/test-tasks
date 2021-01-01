@@ -1,0 +1,8 @@
+CREATE TABLE  usr (
+  id BIGINT NOT NULL AUTO_INCREMENT,
+  username VARCHAR(45) NULL,
+  password VARCHAR(345) NULL,
+  active TINYINT NULL,
+  role ENUM("ADMIN", "USER") NULL,
+  PRIMARY KEY (id))
+ENGINE = InnoDB;
