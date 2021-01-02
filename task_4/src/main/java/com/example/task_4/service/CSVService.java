@@ -25,8 +25,4 @@ public class CSVService {
         }
     }
 
-    public List<Employee> getAllTutorials() {
-        return (List<Employee>) employeeRepository.findAll();
-    }
-
 }

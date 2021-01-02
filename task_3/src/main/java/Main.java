@@ -68,7 +68,7 @@ public class Main {
                     Value pValue = values.stream().filter(value1 -> value1.getName().equals(mas[1])).collect(Collectors.toList()).get(0);
                     double finalFactor = pValue.getCoefficient();
 
-                    //  while (!pValue.getName().equals(mas[3]))  //отсчет от младшего к старшему
+                    //отсчет от младшего к старшему
                     while (!pValue.getParent().getName().equals(mas[3]))
                     {
                         pValue = pValue.getParent();
