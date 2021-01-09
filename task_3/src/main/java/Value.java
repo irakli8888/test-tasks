@@ -80,6 +80,16 @@ public class Value {
     }
 
     @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Value value = (Value) o;
+        return Double.compare(value.coefficient, coefficient) == 0 &&
+                Objects.equals(name, value.name) &&
+                Objects.equals(bigParent, value.bigParent);
+    }
+
+    @Override
     public int hashCode() {
         return Objects.hash(coefficient, name, bigParent);
     }

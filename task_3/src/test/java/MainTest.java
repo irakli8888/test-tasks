@@ -39,8 +39,6 @@ public class MainTest extends TestCase {
     }
 
     public void testRecordingAndProcessing(){
-
-
         Assert.assertTrue(bitAndByteResult.contains("[бит 8.0 Value{coefficient=1.0, name='байт', bigParent=null}, байт 1.0 null]"));
 
         Assert.assertTrue(kByteAndByteResult.contains("Кбайт 1.0 null") &&

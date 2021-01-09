@@ -17,7 +17,8 @@ public class Main {
         System.out.println("введите соотношения: \nдля выхода из программы введите \"stop\"");
 
         try {
-            while (true) {
+            while (true)
+            {
                 Scanner sc = new Scanner(System.in);
                 String inputData = sc.nextLine();
                 Matcher matcherForInput = VALUES_TO_INPUT.matcher(inputData);
